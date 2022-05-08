@@ -8,7 +8,7 @@ def string_compression(string):
         splited = [
             string[i:i + split_size] for i in range(0, n, split_size)
         ]
-
+        # print(splited)
         count =1
         compressed=""
         for ii in range(1,len(splited)):
