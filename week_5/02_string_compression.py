@@ -25,7 +25,6 @@ def string_compression(string):
             compressed+=(str(count)+splited[-1])
         else:
             compressed+=splited[-1]
-        #print(compressed)
         compressed_len_array.append(len(compressed))
     return min(compressed_len_array)
 
